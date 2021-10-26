@@ -1,0 +1,26 @@
+### patch oluşturma işlemi
+
+You can create a patch for all of these changes by checking them into Git and
+using the git format-patch command:
+$ git add .
+$ git commit -m "BSP for Nova"
+[nova-bsp-2 e160f82] BSP for Nova
+12 files changed, 2272 insertions(+)
+create mode 100644 board/ti/nova/Kconfig
+create mode 100644 board/ti/nova/MAINTAINERS
+create mode 100644 board/ti/nova/Makefile
+create mode 100644 board/ti/nova/README
+create mode 100644 board/ti/nova/board.c
+create mode 100644 board/ti/nova/board.h
+create mode 100644 board/ti/nova/mux.c
+create mode 100644 board/ti/nova/u-boot.lds
+create mode 100644 configs/nova_defconfig
+create mode 100644 include/configs/nova.h
+$ git format-patch -1
+0001-BSP-for-Nova.patch
+
+### path uygulama işlemi
+
+$ cd u-boot
+$ patch -p1 < MELP/chapter_03/0001-BSP-for-Nova.patch
+
