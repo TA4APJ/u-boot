@@ -1,3 +1,6 @@
+### U-boot env MTD partitioning
+https://openwrt.org/docs/techref/bootloader/uboot.config?s[]=boot
+
 ### patch oluşturma işlemi
 
 You can create a patch for all of these changes by checking them into Git and
