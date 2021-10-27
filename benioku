@@ -4,6 +4,8 @@ https://openwrt.org/docs/techref/bootloader/uboot.config?s[]=boot
 ### 16M flash /64M Memory hardware mod with uboot bin
 https://forum.archive.openwrt.org/viewtopic.php?id=32512&p=2
 
+https://patchwork.ozlabs.org/project/uboot/patch/1402937486-13397-5-git-send-email-list-09_u-boot@tqsc.de/
+
 ### patch oluşturma işlemi
 
 You can create a patch for all of these changes by checking them into Git and
