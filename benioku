@@ -1,6 +1,9 @@
 ### U-boot env MTD partitioning
 https://openwrt.org/docs/techref/bootloader/uboot.config?s[]=boot
 
+### 16M flash /64M Memory hardware mod with uboot bin
+https://forum.archive.openwrt.org/viewtopic.php?id=32512&p=2
+
 ### patch oluşturma işlemi
 
 You can create a patch for all of these changes by checking them into Git and
