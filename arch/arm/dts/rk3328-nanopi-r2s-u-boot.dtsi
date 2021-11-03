@@ -8,11 +8,10 @@
 #include "rk3328-sdram-ddr4-666.dtsi"
 / {
 	aliases {
- 		mmc0 = &emmc;
- 		mmc1 = &sdmmc;
- 		spi0 = &spi0;
- 		
- 	};
+		mmc0 = &emmc;
+		mmc1 = &sdmmc;
+		spi0 = &spi0;
+};
 	chosen {
 		u-boot,spl-boot-order = "same-as-spl", &spi0, &sdmmc, &emmc;
 	};
