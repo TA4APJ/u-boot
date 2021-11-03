@@ -1,0 +1,10 @@
+--- arch/arm/dts/rk3328-u-boot.dtsi
++++ arch/arm/dts/rk3328-u-boot.dtsi
+@@ -7,6 +7,7 @@ 
+ 	aliases {
+ 		mmc0 = &emmc;
+ 		mmc1 = &sdmmc;
++ 		spi0 = &spi0;
+ 	};
+ 
+ 	chosen {

@@ -71,3 +71,4 @@
 &spi0 {
 	u-boot,dm-pre-reloc;
 };
+
